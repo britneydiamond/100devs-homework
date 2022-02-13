@@ -1,0 +1,39 @@
+h1{
+    color:white;
+    text-align: center;
+    
+    
+}
+body{
+    background-color: rgb(9, 190, 214);
+    color: white;
+    border-style: solid;
+    border-color: rgb(22,110,41);
+    border-width: 5px;
+    padding-left: 25px;
+    margin: 25px;
+}
+nav{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+li{
+    overflow: hidden;
+    display: inline;
+    border-right: gray 3px solid;
+    padding-right: 2px;
+    
+}
+li:last-child{
+    border-right: none;
+}
+
+.green{
+    color: green;
+}
+.logo{
+    position: relative;
+    float: right;
+    margin-left: 15px;
+}
